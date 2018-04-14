@@ -1,0 +1,48 @@
+{
+  "name": "506_sres_whu",
+  "version": "1.0.0",
+  "description": "武汉大学资环学院506团队网站",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --config webpack.dev.config.js",
+    "server": "node server.js",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/faded_away/506__SRES_WHU.git"
+  },
+  "keywords": [
+    "506",
+    "WHU",
+    "PROF.AI"
+  ],
+  "author": "weicai_wang",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "express": "^4.16.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.5.0",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-middleware": "^3.1.2",
+    "webpack-dev-server": "^3.1.3",
+    "webpack-dev-server-output": "0.0.6"
+  }
+}
