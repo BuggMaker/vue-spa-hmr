@@ -3,7 +3,7 @@
  * by weicai
  */
 import routeConfig from "./route.config.js";
-
-if(module.hot){
-  module.hot.accept()
+import "./style/index.css";
+if (module.hot) {
+  module.hot.accept();
 }

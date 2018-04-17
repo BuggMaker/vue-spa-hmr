@@ -21,6 +21,10 @@ module.exports = {
         // 解析.vue文件
         test: /\.vue$/,
         loader: "vue-loader"
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
       }
     ]
   },
